@@ -1,0 +1,17 @@
+<div class="box">
+    <h1>Lista de llamadas Http</h1>
+  <mat-card *ngFor="let item of data" class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{item.title}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="http://www.cartoonbucket.com/wp-content/uploads/2015/05/Stylish-Pikachu-Image.jpg"
+      alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{item.body}}
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+</div>
